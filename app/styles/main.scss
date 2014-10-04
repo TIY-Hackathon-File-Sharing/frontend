@@ -2,25 +2,49 @@
 @import '../../bower_components/bourbon/dist/bourbon';
 @import '../../bower_components/neat/app/assets/stylesheets/neat';
 
-// Custom Styles
-body {
-  background: #fafafa;
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: #333;
+// Custom Styles - HOME PAGE
+
+.container {
+  height: 600px;
+  background-image: url("http://cl.ly/image/0w2r1m3s3i21/800px-Atlanta_Skyline_from_Buckhead.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  opacity: 0.7;
 }
 
-.hero-unit {
-  margin: 50px auto 0 auto;
-  width: 600px;
-  font-size: 18px;
-  font-weight: 200;
-  line-height: 30px;
-  background-color: #eee;
-  border-radius: 6px;
-  padding: 60px;
-  h1 {
-    font-size: 60px;
-    line-height: 1;
-    letter-spacing: -1px;
-  }
+.titleBox {
+  width: 500px;
+  border: 5px solid white;
+  text-align: center;
+  color: white;
+  margin: 0px auto;
+}
+
+.comBox {
+  float: left;
+  width: 300px;
+  margin: 200px 160px 0px 160px;
+  border: 5px solid white;
+  text-align: center;
+  color: white;
+}
+
+.passBox {
+  float: left;
+  width: 300px;
+  margin: 200px 160px 0px 160px;
+  border: 5px solid white;
+  text-align: center;
+  color: white;
+
+}
+
+.appBox {
+  clear: both;
+  width: 10px;
+  height: 10px;
+  border: 5px solid white;
+  text-align: center;
+  color: white;
 }
