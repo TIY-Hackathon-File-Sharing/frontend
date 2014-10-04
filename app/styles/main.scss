@@ -83,11 +83,19 @@
 
   .navLeft {
     float: left;
+    padding: 0px;
+    margin-left: 50px;
   }
 
   .navRight {
     float: right;
+    padding: 0px;
+    margin-right: 50px;
   }
+
+    li {
+      margin-right: 40px;
+    }
 
   li {
     float: left;
