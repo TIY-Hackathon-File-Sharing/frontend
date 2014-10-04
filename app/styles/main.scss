@@ -2,13 +2,13 @@
 @import '../../bower_components/bourbon/dist/bourbon';
 @import '../../bower_components/neat/app/assets/stylesheets/neat';
 
-// Custom Styles - HOME PAGE
+/*****************************************************************************************     Custom Styles - HOME PAGE ******************************************************************************************/
 
 .container {
   position: relative;
   z-index: 1;
   height: 1000px;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .bg {
@@ -71,4 +71,48 @@
     float: left;
     width: 10%;
   }
+}
+
+
+/*****************************************************************************************     Custom Styles - EMPLOYEE PAGE ******************************************************************************************/
+
+.navBanner {
+  overflow: auto;
+  background-color: gray;
+  padding: 15px 0px;
+
+  .navLeft {
+    float: left;
+  }
+
+  .navRight {
+    float: right;
+  }
+
+  li {
+    float: left;
+    list-style-type: none;
+    color: white;
+  }
+}
+
+.mainBanner {
+  clear: both;
+  position: relative;
+  z-index: 1;
+  height: 300px;
+  overflow: hidden;
+}
+
+.bgEP {
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: url("http://cl.ly/image/0w2r1m3s3i21/800px-Atlanta_Skyline_from_Buckhead.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
 }
