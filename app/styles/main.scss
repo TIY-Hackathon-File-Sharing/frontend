@@ -150,11 +150,35 @@
   }
 }
 
+.folderActions {
+  overflow: auto;
+
+  .boxLeft {
+    float: left;
+    padding: 0px;
+    margin-left: 50px;
+  }
+
+  .boxRight {
+    float: right;
+    padding: 0px;
+    margin-right: 50px;
+  }
+
+    li {
+      margin-right: 40px;
+      list-style-type: none;
+    }
+
+  li {
+    float: left;
+  }
+}
+
 .folderCon {
   text-align: center;
 
   .folderTopBox img, .folderBottomBox img {
-
     margin: 40px 40px;
     width: 100px;
     height: 100px;
